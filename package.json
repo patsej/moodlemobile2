@@ -1,10 +1,10 @@
 {
   "name": "moodlemobile",
   "version": "3.8.0",
-  "description": "The official app for Moodle.",
+  "description": "The official Ingage app.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Ingage (a Belinguo AG brand)",
+    "email": "support@ingageinsurance.net"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -189,7 +189,7 @@
   "main": "desktop/electron.js",
   "build": {
     "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "productName": "Ingage Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
@@ -210,7 +210,7 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "Ingage Mobile URL",
         "schemes": [
           "moodlemobile"
         ],
